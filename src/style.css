@@ -2702,6 +2702,19 @@ body {
     }
 }
 
+.brand-sigil {
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 30px;
+    flex: 0 0 auto;
+}
+.brand-sigil svg {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
 .section-focus-flash {
     animation: section-focus-flash 0.72s ease both;
 }
